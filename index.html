@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- meta情報 -->
+    <title>タイトル</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!-- ogp -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:card" content="summary" />
+    <!-- ファビコン -->
+    <link rel="icon" href="#" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+      defer
+    ></script>
+    <script src="/js/script.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header js-header">
+      <div class="header__inner">
+        <h1 class="header__title">
+          <a href="index.html"
+            ><img src="https://taku-art.github.io/works4/images/top/logo-img.svg" alt="" class="header__logo"
+          /></a>
+        </h1>
+        <nav class="header__nav md-none">
+          <ul class="header__items">
+            <li class="header__item">
+              <a href="#about" class="header__link">About</a>
+            </li>
+
+            <li class="header__item">
+              <a href="#service" class="header__link">Service</a>
+            </li>
+
+            <li class="header__item">
+              <a href="#news" class="header__link">News</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#contact" class="header__contact button md-none">Contact</a>
+      </div>
+
+      <div class="hamburger js-hamburger md-show">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="drawer-menu js-drawer">
+        <div class="drawer-menu__inner">
+          <ul class="drawer-menu__items">
+            <li class="drawer-menu__item">
+              <a href="#about" class="drawer-menu__link">About</a>
+            </li>
+
+            <li class="drawer-menu__item">
+              <a href="#service" class="drawer-menu__link">Service</a>
+            </li>
+
+            <li class="drawer-menu__item">
+              <a href="#news" class="drawer-menu__link">News</a>
+            </li>
+
+            <li class="drawer-menu__item">
+              <a href="#contact" class="drawer-menu__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- fv -->
+      <div class="fv">
+        <div class="fv__inner">
+          <div class="fv__slider swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <picture>
+                  <source
+                    srcset="https://taku-art.github.io/works4/images/top/fv-img.jpg"
+                    media="(min-width:1024px)"
+                  />
+                  <img src="https://taku-art.github.io/works4/images/top/fv-img-sp.jpg" alt="" />
+                </picture>
+              </div>
+
+              <div class="swiper-slide">
+                <picture>
+                  <source
+                    srcset="https://taku-art.github.io/works4/images/top/fv-img2.jpg"
+                    media="(min-width:1024px)"
+                  />
+                  <img src="https://taku-art.github.io/works4/images/top/fv-img2-sp.jpg" alt="" />
+                </picture>
+              </div>
+
+              <div class="swiper-slide">
+                <picture>
+                  <source
+                    srcset="https://taku-art.github.io/works4/images/top/fv-img3.jpg"
+                    media="(min-width:1024px)"
+                  />
+                  <img src="https://taku-art.github.io/works4/images/top/fv-img3-sp.jpg" alt="" />
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev md-none"></div>
+            <div class="swiper-button-next md-none"></div>
+          </div>
+          <div class="fv__title js-fv__title">
+            <h2 class="fv__title-main">MADE to ORDER</h2>
+            <p class="fv__title-sub">上質を仕立てる</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- about -->
+      <section id="about" class="about">
+        <div class="about__inner inner">
+          <div class="about__title-container title-container">
+            <h2 class="about__title section-title">About</h2>
+            <div class="about__line line"></div>
+          </div>
+
+          <div class="about__card card">
+            <img src="https://taku-art.github.io/works4/images/top/about-img.jpg" alt="" class="card-img" />
+            <p class="card-text">
+              上質を追及する<br class="md-show" />老舗として<br />
+              その歴史と<br class="md-show" />誇りを持って<br />
+              お客様と<br class="md-show" />向き合ってます
+            </p>
+          </div>
+
+          <div class="about__text-button-area">
+            <p class="about__text-area">
+              創業以来、厳選した高品質で豊富な生地、研鑽を重ねた縫製技術で多くのスーツを仕立ててきました。<br />
+              伝統あるテーラーだからできる、芯地や裏地など、細部へのこだわり。<br />
+              わたしたちはワンランク上のオーダースーツをお約束します。
+            </p>
+            <a href="about.html" class="about__button-area">View More</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- service -->
+      <section id="service" class="service">
+        <div class="service__inner inner">
+          <div class="service__title-container title-container">
+            <h2 class="service__title section-title">Service</h2>
+            <div class="service__line line"></div>
+          </div>
+
+          <div class="service__tab tab">
+            <div class="tab__list">
+              <button class="tab__button js-tab-button is-active">
+                オーダーメイドスーツ
+              </button>
+              <button class="tab__button js-tab-button">
+                その他のアイテム
+              </button>
+            </div>
+
+            <div class="tab__contents">
+              <ul class="tab__content js-tab-content is-active">
+                <li class="tab__card card">
+                  <div class="card__img-container">
+                    <img
+                      src="https://taku-art.github.io/works4/images/top/service-img.jpg"
+                      alt=""
+                      class="card__img"
+                    />
+                    <p class="card-tag">suit</p>
+                  </div>
+                  <div class="card__body">
+                    <p class="card__body-title">カジュアルスーツ</p>
+                    <p class="card__body-text">
+                      あなただけでのスタイルで着こなす、あなただけの一着を
+                    </p>
+                  </div>
+                </li>
+
+                <li class="tab__card card">
+                  <div class="card__img-container">
+                    <img
+                      src="https://taku-art.github.io/works4/images/top/service-img2.jpg"
+                      alt=""
+                      class="card__img"
+                    />
+                    <p class="card-tag">suit</p>
+                  </div>
+                  <div class="card__body">
+                    <p class="card__body-title">リクルートスーツ</p>
+                    <p class="card__body-text">
+                      あなただけでのスタイルで着こなす、あなただけの一着を
+                    </p>
+                  </div>
+                </li>
+
+                <li class="tab__card card">
+                  <div class="card__img-container">
+                    <img
+                      src="https://taku-art.github.io/works4/images/top/service-img3-sp.jpg"
+                      alt=""
+                      class="card__img"
+                    />
+                    <p class="card-tag">suit</p>
+                  </div>
+                  <div class="card__body">
+                    <p class="card__body-title">フォーマルスーツ</p>
+                    <p class="card__body-text">
+                      あなただけでのスタイルで着こなす、あなただけの一着を
+                    </p>
+                  </div>
+                </li>
+              </ul>
+              <ul class="tab__content js-tab-content">
+                <li class="tab__card card">
+                  <div class="card__img-container">
+                    <img
+                      src="https://taku-art.github.io/works4/images/top/service-img4.jpg"
+                      alt=""
+                      class="card__img"
+                    />
+                    <p class="card-tag">other</p>
+                  </div>
+                  <div class="card__body">
+                    <p class="card__body-title">シューズ</p>
+                    <p class="card__body-text">
+                      あなただけでのスタイルで着こなす、あなただけの一着を
+                    </p>
+                  </div>
+                </li>
+
+                <li class="tab__card card">
+                  <div class="card__img-container">
+                    <img
+                      src="https://taku-art.github.io/works4/images/top/service-img5.jpg"
+                      alt=""
+                      class="card__img"
+                    />
+                    <p class="card-tag">other</p>
+                  </div>
+                  <div class="card__body">
+                    <p class="card__body-title">ネクタイ</p>
+                    <p class="card__body-text">
+                      あなただけでのスタイルで着こなす、あなただけの一着を
+                    </p>
+                  </div>
+                </li>
+
+                <li class="tab__card card">
+                  <div class="card__img-container">
+                    <img
+                      src="https://taku-art.github.io/works4/images/top/service-img-sp6.jpg"
+                      alt=""
+                      class="card__img"
+                    />
+                    <p class="card-tag">other</p>
+                  </div>
+                  <div class="card__body">
+                    <p class="card__body-title">フォーマルバッグ</p>
+                    <p class="card__body-text">
+                      あなただけでのスタイルで着こなす、あなただけの一着を
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- news -->
+      <section id="news" class="news">
+        <div class="news__inner inner">
+          <div class="news__title-container title-container">
+            <h2 class="news__title section-title section-title--reverse">
+              News
+            </h2>
+            <div class="news__line line"></div>
+          </div>
+
+          <ul class="news__list">
+            <li class="news__item news-item">
+              <div class="news-item__container">
+                <time datetime="2022-11-23" class="news-item__date"
+                  >2022.11.23</time
+                >
+                <p class="news-item__tag">お知らせ</p>
+              </div>
+              <p class="news-item__title">12月のお休みのお知らせ</p>
+            </li>
+
+            <li class="news__item news-item">
+              <div class="news-item__container">
+                <time datetime="2022-11-18" class="news-item__date"
+                  >2022.11.18</time
+                >
+                <p class="news-item__tag">お知らせ</p>
+              </div>
+              <p class="news-item__title">オンラインストアを開設しました</p>
+            </li>
+
+            <li class="news__item news-item">
+              <div class="news-item__container">
+                <time datetime="2022-11-04" class="news-item__date"
+                  >2022.11.04</time
+                >
+                <p class="news-item__tag">イベント</p>
+              </div>
+              <p class="news-item__title">創業80周年記念特別割引適用</p>
+            </li>
+
+            <li class="news__item news-item">
+              <div class="news-item__container">
+                <time datetime="2022-10-26" class="news-item__date"
+                  >2022.10.26</time
+                >
+                <p class="news-item__tag">お知らせ</p>
+              </div>
+              <p class="news-item__title">インスタグラムはじめました</p>
+            </li>
+
+            <li class="news__item news-item">
+              <div class="news-item__container">
+                <time datetime="2022-10-11" class="news-item__date"
+                  >2022.10.11</time
+                >
+                <p class="news-item__tag">イベント</p>
+              </div>
+              <p class="news-item__title">
+                11月23日～リニューアルオープンイベントがはじまります
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section id="contact" class="contact">
+        <div class="contact__wrapper">
+          <div class="contact__inner inner inner--width">
+            <div class="contact__title-container title-container">
+              <h2 class="contact__title section-title">Contact</h2>
+              <div class="contact__line line"></div>
+            </div>
+            <div class="contact__contents">
+              <p class="contact__text">お気軽にご相談ください</p>
+              <a href="contact.html" class="contact__button"
+                >お問い合わせはこちら</a
+              >
+            </div>
+          </div>
+
+          <div class="contact__img md-none"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <small class="footer__copyright"
+        >&copy;ExciteCode all rights reserved</small
+      >
+    </footer>
+  </body>
+</html>
